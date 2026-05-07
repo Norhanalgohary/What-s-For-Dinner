@@ -3,7 +3,7 @@ body{
     background-color: #FFFBEA;
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-h5,h6{
+h5,h6,p,h4{
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ nav h5{
    font-weight: 700;
    font-size:24px ;
 }
-nav h6{
+nav h6 , .h6{
 color: oklch(0.551 0.027 264.364);
    font-weight: 400;
    font-size:14px ;
@@ -31,4 +31,36 @@ color: orangered;
 }
 .i-3:hover{
 color: orangered;
+}
+.h5{
+     font-weight: 600;
+   font-size:16px ;
+}
+.desc1{
+      font-weight: 600;
+   font-size:12px ;
+   color: oklch(0.527 0.154 150.069);
+}
+.desc2{
+      font-weight: 600;
+   font-size:12px ;
+   color: oklch(0.488 0.243 264.376);
+}
+.header-title{
+    h4{
+  font-weight: 700;
+   font-size:36px ;
+    }
+    p{
+  font-weight: 400;
+   font-size:18px ;
+   color: oklch(0.446 0.03 256.802);
+    }
+}
+button{
+    background-image: linear-gradient(90deg ,rgb(247, 112, 16),orangered, red);
+    font-weight: 600;
+   font-size:16px ;
+   color: white;
+   padding-block: 13px;
 }
