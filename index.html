@@ -40,16 +40,16 @@
 </nav>
 
 
-<div class="container mt-5 my-5 col-lg-10 col-sm-12 offset-1 mx-auto " >
-    <div class="row ">
+<div class="container mt-5 my-5 col-lg-10 col-sm-12 offset-1 mx-auto vh-100" >
+    <div class="row " id="row">
         <div class="col-lg-12  col-sm-12 mx-auto  vh-100 d-lg-flex ">
-          <div class="col-lg-5 col-sm-12 bg-secondary  position-relative rounded-start-5">
+          <div class="col-lg-5 col-sm-12 bg-white  position-relative rounded-start-5">
             <div class="d-flex align-items-center bg-white rounded-pill position-absolute" style="width: 32%; padding: 6px; top: 20px; left: 20px;">
               <i class="fa-solid fa-star me-2 mb-1" style="color: rgb(255, 212, 59); "></i>
               <h5 class="me-2 h5">4.7 </h5>
               <h6 class="h6">(312 reviews)</h6>
             </div>
-            <img src="imgs/avatar-2.jpg" alt="" class="w-100 h-100  rounded-start-5 ">
+            <img src="imgs/avatar-2.jpg" alt="nonaaa" class="w-100 h-100  rounded-start-5 object-fit-cover">
           <div class="bg-white rounded-4 position-absolute p-4 d-flex justify-content-between text-center col-10 offset-1" style="bottom: 20px;">
             <div>
               <i class="fa-solid fa-clock fa-lg" style="color: rgb(255, 111, 0);"></i>
@@ -69,7 +69,7 @@
 
           </div>
         </div>
-           <div class="col-lg-7 col-sm-12 bg-white border-danger-subtle rounded-end-5 px-5 py-4 overflow-scroll">
+           <div class="col-lg-7 col-sm-12 bg-white border-danger-subtle rounded-end-5 px-5 py-4 overflow-y-scroll vh-100">
             
             <div class="rounded-pill d-inline-block  py-1 px-2 desc1" style="background-color: #DBFCE7;">Easy</div>
             <div class="rounded-pill d-inline-block  py-1 px-2 desc2" style="background-color: #DBEAFE;">Asian</div>
@@ -79,53 +79,132 @@
             <p>Sweet and savory chicken over rice with vegetables</p>
           </div>
            <div class="header-icons d-flex"> 
-            <div style="background-color: #FFEDD4; width: 45px; height: 45px; border-radius: 10px; position: relative; margin-inline-end: 10px; "><i class="fa-solid fa-bookmark 
-               top-50 start-50 translate-middle" style="color: rgb(255, 111, 0); position: absolute;"></i></div>
-            <div style="background-color: #FFEDD4; width: 45px; height: 45px; border-radius: 10px; position: relative;"><i class="fa-solid fa-share-nodes 
-               top-50 start-50 translate-middle" style="color: rgb(255, 111, 0);  position: absolute;"></i></div>
+            <div class="icon1" style=" width: 45px; height: 45px; border-radius: 10px; position: relative; margin-inline-end: 10px; "><i class="fa-solid fa-bookmark 
+               top-50 start-50 translate-middle " style="color: rgb(255, 111, 0); position: absolute;"></i></div>
+            <div class="icon2" style=" width: 45px; height: 45px; border-radius: 10px; position: relative;"><i class="fa-solid fa-share-nodes 
+               top-50 start-50 translate-middle " style="color: rgb(255, 111, 0);  position: absolute;"></i></div>
           </div>
            </div>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ex unde dolor nisi laborum. Expedita sint sunt hic cupiditate assumenda, tempora dolor nihil quis. Quasi, animi? Quasi cum fugit ducimus temporibus deleniti fugiat cumque sunt earum dolore ipsam doloremque similique nihil, impedit officiis corporis eos laborum ea quis pariatur, commodi est. Amet reprehenderit hic temporibus sequi tempora quaerat architecto, rem unde similique maiores velit, esse odio voluptatum, sed inventore in molestias eos dolorem commodi? Libero quos laboriosam aliquid doloremque harum accusamus consectetur aperiam ex perspiciatis !</p>
+       
             <div class="meal-prep border-bottom">
             <ul class="nav nav-underline border-bottom px-4" id="myTab" role="tablist">
   <li class="nav-item  mb-3" role="presentation">
-    <button class="nav-link active me-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-list-check me-1" style="color: rgb(116, 125, 141);"></i>Ingredients</button>
+    <button class="nav-link active me-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-list-check me-1" 
+      ></i>Ingredients</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link me-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-book-open me-1" style="color: rgb(116, 125, 141);"></i>
+    <button class="nav-link me-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-book-open me-1" 
+      ></i>
 Instructions</button>
   </li>
   <li class="nav-item me-4" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><i class="fa-solid fa-chart-pie me-1" style="color: rgb(116, 125, 141);"></i>Nutrition</button>
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><i class="fa-solid fa-chart-pie me-1" 
+      ></i>Nutrition</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><i class="fa-solid fa-lightbulb me-1" style="color: rgb(116, 125, 141);"></i>Chef's Tips</button>
+    <button class="nav-link" id="contact2-tab" data-bs-toggle="tab" data-bs-target="#contact2-tab-pane" type="button" role="tab" aria-controls="contact2-tab-pane" aria-selected="false"><i class="fa-solid fa-lightbulb me-1 " 
+      ></i>Chef's Tips</button>
   </li>
  
 </ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-    <div style="background-color:#FFFAEC ;" class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur qui alias voluptate voluptatibus quod aliquid, iste mollitia. Voluptatibus omnis quibusdam ab placeat consequatur culpa, officiis doloribus impedit fugiat voluptate delectus eaque fuga quis eligendi quod, atque consequuntur alias nemo hic eum asperiores earum! At accusamus reprehenderit eos odio, magnam perferendis laborum repellat, harum aspernatur corrupti debitis saepe. Ad necessitatibus ratione incidunt inventore at quasi perferendis illo quibusdam odit quod doloremque, mollitia praesentium. Sapiente soluta distinctio consequuntur quis ipsa ad similique ab minima cupiditate ea, et excepturi itaque, hic id natus dolores illum obcaecati tempore? Fugiat molestias est dolor veniam numquam. Aspernatur sed pariatur veniam necessitatibus. Nemo maxime voluptatem eos explicabo voluptate quasi. Nisi laboriosam dicta deserunt libero temporibus, quasi vero dolore nesciunt qui. Exercitationem accusantium cumque asperiores? Nihil beatae blanditiis est delectus sequi perspiciatis corporis ipsa nesciunt asperiores alias quasi reprehenderit voluptas facere fugiat odio, natus eaque veritatis enim!</div>
+<div class="tab-content overflow-y-scroll" id="myTabContent">
+  <div class="tab-pane fade show active " id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+    <div style="background-color:#FFFAEC ;" class="my-3 d-flex align-items-center p-3 rounded-2">
+      <div class="me-3 rounded-circle text-center align-content-center" style="width: 20px; height: 20px; background: orangered;  color: white; font-weight: 700; font-size: 12px;"> 1</div>
+      <p style="color: oklch(0.373 0.034 259.733); font-weight: 400; font-size: 16px;">lorem10</p>
+    </div>
   </div>
-  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-    <div style="background-color:#FFFAEC ;" class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur qui alias voluptate voluptatibus quod aliquid, iste mollitia. Voluptatibus omnis quibusdam ab placeat consequatur culpa, officiis doloribus impedit fugiat voluptate delectus eaque fuga quis eligendi quod, atque consequuntur alias nemo hic eum asperiores earum! At accusamus reprehenderit eos odio, magnam perferendis laborum repellat, harum aspernatur corrupti debitis saepe. Ad necessitatibus ratione incidunt inventore at quasi perferendis illo quibusdam odit quod doloremque, mollitia praesentium. Sapiente soluta distinctio consequuntur quis ipsa ad similique ab minima cupiditate ea, et excepturi itaque, hic id natus dolores illum obcaecati tempore? Fugiat molestias est dolor veniam numquam. Aspernatur sed pariatur veniam necessitatibus. Nemo maxime voluptatem eos explicabo voluptate quasi. Nisi laboriosam dicta deserunt libero temporibus, quasi vero dolore nesciunt qui. Exercitationem accusantium cumque asperiores? Nihil beatae blanditiis est delectus sequi perspiciatis corporis ipsa nesciunt asperiores alias quasi reprehenderit voluptas facere fugiat odio, natus eaque veritatis enim!</div>
+  <div class="tab-pane fade " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+    <div style="background-color:white ; " class="my-3">
+      <div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 100%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 mb-2 rounded-3 text-center align-content-center text-white" style="width: 50px; height: 50px; background-color: #FF6900; font-weight: 700; font-size: 20px;">1</div>
+          <h6 style="font-weight: 400; font-size: 16px; color: oklch(0.373 0.034 259.733);">Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+        </div>
+        
+      </div>
+    </div>
   </div>
   <div class="tab-pane fade" id="contact-tab-pane"  role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-    <div style="background-color:#FFFAEC ;" class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur qui alias voluptate voluptatibus quod aliquid, iste mollitia. Voluptatibus omnis quibusdam ab placeat consequatur culpa, officiis doloribus impedit fugiat voluptate delectus eaque fuga quis eligendi quod, atque consequuntur alias nemo hic eum asperiores earum! At accusamus reprehenderit eos odio, magnam perferendis laborum repellat, harum aspernatur corrupti debitis saepe. Ad necessitatibus ratione incidunt inventore at quasi perferendis illo quibusdam odit quod doloremque, mollitia praesentium. Sapiente soluta distinctio consequuntur quis ipsa ad similique ab minima cupiditate ea, et excepturi itaque, hic id natus dolores illum obcaecati tempore? Fugiat molestias est dolor veniam numquam. Aspernatur sed pariatur veniam necessitatibus. Nemo maxime voluptatem eos explicabo voluptate quasi. Nisi laboriosam dicta deserunt libero temporibus, quasi vero dolore nesciunt qui. Exercitationem accusantium cumque asperiores? Nihil beatae blanditiis est delectus sequi perspiciatis corporis ipsa nesciunt asperiores alias quasi reprehenderit voluptas facere fugiat odio, natus eaque veritatis enim!</div>
+    <div style="background-color:white ;" class="my-3 d-flex justify-content-between flex-wrap  py-3">
+      <div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 49%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 mb-2 rounded-2" style="width: 40px; height: 40px; background-color: #FFEDD4;"><i class="fa-solid fa-fire position-absolute top-50 start-50 translate-middle " style="color:#F54900;"></i></div>
+          <h6 style="font-weight: 500; font-size: 16px; color: oklch(0.373 0.034 259.733);">Calories</h6>
+        </div>
+        <div><h4 style="font-weight: 700; font-size: 20px; ">lorem</h4></div>
+      </div>
+
+<div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 49%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 mb-2 rounded-2" style="width: 40px; height: 40px; background-color: #DBEAFE;"><i class="fa-solid fa-dumbbell position-absolute top-50 start-50 translate-middle " style="color:#155DFC;"></i>
+          </div>
+          <h6 style="font-weight: 500; font-size: 16px; color: oklch(0.373 0.034 259.733);">Protein</h6>
+        </div>
+        <div><h4 style="font-weight: 700; font-size: 20px; ">lorem</h4></div>
+      </div>
+
+       <div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 49%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 mb-2 rounded-2" style="width: 40px; height: 40px; background-color: #FEF9C2;"><i class="fa-solid fa-wheat-awn position-absolute top-50 start-50 translate-middle " style="color:#D08700;"></i>
+          </div>
+          <h6 style="font-weight: 500; font-size: 16px; color: oklch(0.373 0.034 259.733);">Carbohydrates</h6>
+        </div>
+        <div><h4 style="font-weight: 700; font-size: 20px; ">lorem</h4></div>
+      </div>
+
+          <div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 49%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 mb-2 rounded-2" style="width: 40px; height: 40px; background-color: #FFE2E2;"><i class="fa-solid fa-droplet position-absolute top-50 start-50 translate-middle " style="color:#E7000B;"></i>
+          </div>
+          <h6 style="font-weight: 500; font-size: 16px; color: oklch(0.373 0.034 259.733);">Fat</h6>
+        </div>
+        <div><h4 style="font-weight: 700; font-size: 20px; ">lorem</h4></div>
+      </div>
+
+       <div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 49%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 rounded-2" style="width: 40px; height: 40px; background-color: #DBFCE7;"><i class="fa-solid fa-leaf position-absolute top-50 start-50 translate-middle " style="color:#00A63E;"></i>
+          </div>
+          <h6 style="font-weight: 500; font-size: 16px; color: oklch(0.373 0.034 259.733);">Fiber</h6>
+        </div>
+        <div><h4 style="font-weight: 700; font-size: 20px; ">lorem</h4></div>
+      </div>
+
+       <div class="d-flex justify-content-between align-items-center bg-body-tertiary p-3  mb-2 rounded-2" style="width: 49%; background-color: #F9FAFB;">
+        <div class="d-flex align-items-center">
+          <div class="position-relative me-2 rounded-2" style="width: 40px; height: 40px; background-color: #FCE7F3;"><i class="fa-solid fa-cube position-absolute top-50 start-50 translate-middle " style="color:#E60076;"></i>
+          </div>
+          <h6 style="font-weight: 500; font-size: 16px; color: oklch(0.373 0.034 259.733);">Sodium</h6>
+        </div>
+        <div><h4 style="font-weight: 700; font-size: 20px; ">lorem</h4></div>
+      </div>
+      
+      
+      
+     
+    </div>
   </div>
-  <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
-    <div style="background-color:#FFFAEC ;" class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur qui alias voluptate voluptatibus quod aliquid, iste mollitia. Voluptatibus omnis quibusdam ab placeat consequatur culpa, officiis doloribus impedit fugiat voluptate delectus eaque fuga quis eligendi quod, atque consequuntur alias nemo hic eum asperiores earum! At accusamus reprehenderit eos odio, magnam perferendis laborum repellat, harum aspernatur corrupti debitis saepe. Ad necessitatibus ratione incidunt inventore at quasi perferendis illo quibusdam odit quod doloremque, mollitia praesentium. Sapiente soluta distinctio consequuntur quis ipsa ad similique ab minima cupiditate ea, et excepturi itaque, hic id natus dolores illum obcaecati tempore? Fugiat molestias est dolor veniam numquam. Aspernatur sed pariatur veniam necessitatibus. Nemo maxime voluptatem eos explicabo voluptate quasi. Nisi laboriosam dicta deserunt libero temporibus, quasi vero dolore nesciunt qui. Exercitationem accusantium cumque asperiores? Nihil beatae blanditiis est delectus sequi perspiciatis corporis ipsa nesciunt asperiores alias quasi reprehenderit voluptas facere fugiat odio, natus eaque veritatis enim!</div>
+  <div class="tab-pane fade" id="contact2-tab-pane"  role="tabpanel" aria-labelledby="contact2-tab" tabindex="0">
+    <div style="background-color:white ;" class="my-3">
+      <div class="col-12 rounded-3 d-flex align-items-center px-2 py-4" style="background-color: #FFFBEB; border-left: #E17100 5px solid;">
+           <i class="fa-solid fa-circle-check me-2" style="color: rgb(255, 111, 0);"></i>
+          <h6 style="font-weight: 400; font-size: 16px; color: oklch(0.373 0.034 259.733);">Lorem ipsum dolor sit amet.</h6>
+        
+      </div>
+    </div>
   </div>
+
 </div>
 </div>
-<button class="px-4 rounded-3 border-0 mt-3"><i class="fa-solid fa-arrows-rotate me-1" style="color: rgb(255, 255, 255);"></i>Try Anothe Recipe</button>
+<button onclick="displayMealWithDetails();" class="px-4 rounded-3 border-0 mt-3 bttn"><i class="fa-solid fa-arrows-rotate me-1" style="color: rgb(255, 255, 255);"></i>Try Anothe Recipe</button>
 </div>
         </div>
     </div>
 </div>
 
 
-<!-- --------------------------------hover and js----------------------------------------- -->
+
 
 
     <script src="bootstrap.bundle.min.js"></script>
